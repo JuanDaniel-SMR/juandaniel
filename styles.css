@@ -187,7 +187,15 @@ h3{ margin: 0 0 10px; font-size: 18px; }
   background: var(--panel);
   overflow: hidden;
 }
-.project img{ border-radius: 0; border: none; }
+.project img{
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  border-radius: 0;
+  border: none;
+}
 .project-body{ padding: 14px 16px 16px; }
 .link{ color: rgba(124,92,255,.95); font-weight: 700; }
 
